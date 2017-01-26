@@ -272,20 +272,43 @@ h2{
 #portfolio{
 	width:100%;
 	text-align: center;
-	padding-right: 10%;
+/*	padding-right: 10%;*/
 	padding-top: 15px;
-	padding-bottom: 3%;
-	background-color: #f4f4f4;
+	background-color: white;
+}
+
+#portfolio img{
+	max-width:60%;
+	text-align: center;
+
+}
+
+#msum{
+	background-color: white;
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
+
+#csum{
+	padding-bottom: 50px;
+	background-color: black;
+	padding-top: 10px;
+}
+
+#dsum{
+	background-color: #36474F;
+	color:white;
+	padding-bottom: 5%;
+	padding-top: 15px;
 }
 
 .althead h2{
-	font-size: 1.5em;
+	font-size: 1.6em;
+	color:#FF7A6B;
+	padding-top: 20px;
 }
 
-.althead p{
-	margin-top: -13px;
-	font-size: .75em;
-}
 
 #about{
 	padding-bottom: 50px;
@@ -334,10 +357,14 @@ h2{
 	font-size: 1.3em;
 }
 
+.m{
+	background-color: white;
+}
+
 /* ==========================================================================
    Events
    ========================================================================== */
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 768px){
 
 	.portphotos img{
 		max-height:auto;
@@ -428,11 +455,15 @@ h2{
 	color:white;
 }
 
-#opportunity p,h3{
+#opportunity p{
 	width:80%;
 	text-align: left;
 	margin-left: 10%;
-	font-size: 1.1em;
+}
+
+#opportunity h3{
+	font-size: 1.4em;
+	text-align: left;
 }
 
 #opportunity li{
@@ -466,7 +497,7 @@ h2{
 #methods p{
 	width:80%;
 	margin-left:10%;
-	text-align: center;
+	text-align: left;
 }
 
 #methods li{
@@ -489,13 +520,15 @@ h2{
 	color:black;
 	width:80%;
 	margin-left: 10%;
-	text-align: center;
+	text-align: left;
 }
 
 
-#solution li{
+#solution ul{
 	width:80%;
-	margin-left:3%;
+	text-align: left;
+	margin-left: 10%;
+	font-size: 1.1em;
 	text-align: left;
 }
 
@@ -525,7 +558,7 @@ h2{
 	color:white;
 	width:80%;
 	margin-left:10%;
-	text-align: center;
+	text-align: left;
 }
 
 #takeaways li{
@@ -557,12 +590,12 @@ h2{
 	display:block;
 	text-align: center;
 	position:relative;
-	height:250px;
+	height:400px;
 	bottom:0;
 	right:0;
 	left:0;
 	background-color: white;
-	padding-top:8px;
+	padding-top:40px;
 	border-top:1px solid #eaedf1;
 }
 
@@ -721,9 +754,6 @@ a:hover{
 		text-align: left;
 	}
 
-	.althead{
-		display:none;
-	}
 
 	.portphotos{
 		max-width: 30%;
