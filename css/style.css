@@ -464,6 +464,8 @@ h2{
 #opportunity h3{
 	font-size: 1.4em;
 	text-align: left;
+	width:80%;
+	text-align: left;
 }
 
 #opportunity li{
@@ -565,7 +567,7 @@ h2{
 	width:80%;
 	margin-left:10%;
 	color:white;
-	text-align: center;
+	text-align: left;
 }
 
 
