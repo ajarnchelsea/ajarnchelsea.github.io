@@ -395,7 +395,7 @@ h2{
 #overview{
 	width:100%;
 	text-align: center;
-	background-color: #f4f4f4;
+	background-color: white;
 }
 
 #overview h1{
@@ -431,7 +431,7 @@ h2{
 
 #community{
 	text-align: center;
-	background-color: white;
+	background-color: #f4f4f4;
 }
 
 #community h2{
@@ -486,7 +486,7 @@ h2{
 
 #methods{
 	text-align: center;
-	background-color: #f4f4f4;
+	background-color: white;
 	width:100%;
 
 
@@ -511,7 +511,7 @@ h2{
 
 #solution{
 	text-align: center;
-	background-color: white;
+	background-color: #f4f4f4;
 }
 
 #solution h2{
