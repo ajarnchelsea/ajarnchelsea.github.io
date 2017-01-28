@@ -385,7 +385,7 @@ h2{
 }
 
 .portphotoshead{
-	max-width:50%;
+	max-width:55%;
 	margin-bottom: 30px;
 
 }
@@ -759,10 +759,9 @@ a:hover{
 
 
 	.portphotos{
-		max-width: 30%;
+		max-width: 55%;
 		display:inline-block;
 		margin:0%;
-		margin-left:3%;
 		align:center;
 	}
 
