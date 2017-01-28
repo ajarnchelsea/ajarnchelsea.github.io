@@ -369,7 +369,7 @@ h2{
 	.portphotos img{
 		max-height:auto;
 		max-width:60%;
-		align:right;
+		align:center;
 		margin-left: 20%;
 		padding-bottom: 3%;
 	}
@@ -466,6 +466,7 @@ h2{
 	text-align: left;
 	width:80%;
 	text-align: left;
+	margin-left: 10%;
 }
 
 #opportunity li{
