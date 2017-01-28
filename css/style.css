@@ -249,7 +249,9 @@ h2 {
 	color:white;
 }
 
-
+#lighter{
+	font-family: Avenir-Light;
+}
 
 #splash i{
 	color: #FF7A6B;
