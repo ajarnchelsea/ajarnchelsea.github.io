@@ -765,6 +765,10 @@ a:hover{
 		align:center;
 	}
 
+	#fbimg{
+		max-width:30%;
+	}
+
 
 }
 
