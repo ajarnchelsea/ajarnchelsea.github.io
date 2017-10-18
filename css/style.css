@@ -7,7 +7,7 @@ body{
 	padding:0;
 	font-weight:400;
 	color:black;
-	font-family: Avenir;
+	font-family: Avenir, Helvetica, sans-serif;
 	background-color:#fcfcfc;
 	height:100%;
 	}
@@ -105,7 +105,7 @@ body{
 }
 
 .navigation-link{
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #626262;
 	letter-spacing: 1.5px;
@@ -231,26 +231,46 @@ h2 {
 	-o-background-size: cover;
 	background-size: cover;
 	min-height: 800px;
+	opacity: .7;
 }
 
 
+
 #splash h1{
-	padding-top: 15%;
-	font-family: Avenir-Heavy;
-	font-size: 5em;
+	padding-top: 5%;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
+	font-size: 6em;
 	text-align: center;
-	color:white;
+	color:black;
+}
+
+#splash h2{
+	margin-top: -3%;
+	font-family: Avenir, Helvetica, sans-serif;
+	font-size: 2.75em;
+	text-align: center;
+	color:black;
+}
+
+#splash h3{
+/*	margin-top: -3%;*/
+	font-family: Avenir, Helvetica, sans-serif;
+	font-size: 1.75em;
+	text-align: center;
+	color:black;
+	margin-left: 25%;
+	margin-right: 25%;
 }
 
 #splash p{
 	text-align: center;
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 2.5em;
 	color:white;
 }
 
 #lighter{
-	font-family: Avenir-Light;
+	font-family: Avenir-Light, Helvetica, sans-serif;
 }
 
 #splash i{
@@ -266,7 +286,7 @@ h2 {
 
 
 h2{
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size:2.5em;
 	text-align: center;
 }
@@ -279,11 +299,27 @@ h2{
 	background-color: white;
 }
 
+
+#portfolio h2{
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
+	font-size:3em;
+	text-align: center;
+}
+
+#portfolio h3{
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
+	font-size:1.5em;
+	text-align: center;
+	color:#FF7A6B;
+}
+
 #portfolio img{
 	max-width:60%;
 	text-align: center;
 
 }
+
+
 
 #msum{
 	background-color: white;
@@ -319,8 +355,11 @@ h2{
 	text-align: center;
 	background-color: #FF7A6B;
 }
+
 #about h2{
 	color:white;
+	margin-top: 0%;
+	margin-bottom: 2%;
 
 }
 
@@ -330,8 +369,18 @@ h2{
 	width:90%;
 	text-align: left;
 	padding-left: 15%;
+/*	padding-bottom: 30px;*/
+}
+#about ul{
+	color:white;
+	font-size: 1.1em;
+	width:90%;
+	text-align: left;
+	padding-left: 28.5%;
 	padding-bottom: 30px;
 }
+
+
 
 #btn {
 	text-decoration: none;
@@ -340,7 +389,7 @@ h2{
 	background-color: #fefefe;
 	color:white;
 	padding:10px 20px;
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 1.3em;
 }
 
@@ -355,7 +404,7 @@ h2{
 	background-color: #f4f4f4;
 	color:white;
 	padding:10px 20px;
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 1.3em;
 }
 
@@ -401,7 +450,7 @@ h2{
 }
 
 #overview h1{
-	font-family: Avenir-Heavy;
+	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 5em;
 	color:white;
 	background-color: #FF7A6B;
@@ -591,16 +640,17 @@ h2{
    ========================================================================== */
 
 #footer{
+	padding-top: 30px;
 	width:100vw;
 	display:block;
 	text-align: center;
 	position:relative;
-	height:400px;
+	height:250px;
 	bottom:0;
 	right:0;
 	left:0;
 	background-color: white;
-	padding-top:40px;
+/*	padding-top:40px;*/
 	border-top:1px solid #eaedf1;
 }
 
