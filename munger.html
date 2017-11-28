@@ -4,7 +4,7 @@
 	<meta charset = "UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Chelsea Miller | UX Research and Design</title>
+	<title>Chelsea Miller | UX Design</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css"/>
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
@@ -30,17 +30,15 @@
 				<div class="navigation-interior">
 					<div class="navigation-link">
 							<span id="name"><a href="index.html"><img src="images/cmux.png"></a></span>
-							<span id="title"><a href="index.html">CHELSEA MILLER | UX Research &amp; Design</a></span>
+							<span id="title"><a href="index.html">CHELSEA MILLER</a></span>
 					</div>
 					
 					<ul>
 					<div class="navigation-links">
 
 						<li><a href="index.html#portfolio" class="navigation-link">Projects</a></li>
-
-						<li><a href="index.html#about" class="navigation-link">About</a></li>
-
-						<li><a href="index.html#footer" class="navigation-link">Contact</a></li>
+						<li><a href="about.html" class="navigation-link">About</a></li>
+						<li><a href="resume.html" class="navigation-link">Resume</a></li>
 					
 					</div>
 					</ul>
@@ -51,87 +49,108 @@
 			<div class="interior">
 				<div class="sections">
 					<div id="overview">
-					<h1>munger events</h1>
-					<h3 class="tagline"><b>Facilitating transdisciplinary collaboration and innovation at the Munger Graduate Residences.</b></h3>
+					<h1>Munger Events</h1>
+					<h3 class="tagline"><b>Facilitating transdisciplinary collaboration at the Munger Graduate Residences.</b></h3>
 					<img src="images/mwf.png" alt="" class="portphotoshead"/>
 					<p>
-					<b>Role:</b> Interaction Designer, UX Researcher<br/>
-					<b>Project Type:</b> Individual project for SI 582: Introduction to Interaction Design at the University of Michigan in conjunction with my position as Coleman-Munger Fellow<br/>
+					<b>Role:</b>Interaction Designer<br/>
 					<b>Timeline:</b> September – December 2016<br/>
-					<b>Software:</b> Sketch, Invision<br/>
-					<b>Methods:</b> Competitive Analysis, Sketching, Personas, Scenarios, Paper Prototyping, Usability Testing, Digital Prototyping
+					<b>Project Type:</b> Individual design project for SI 582: Introduction to Interaction Design<br/>
+					<b>Methods:</b> Personas, Storyboarding, Paper Prototyping, Usability Testing, Digital Prototyping<br/>
+
 					</p>
 					
 					</div>
 					<div id="community">
-					<h2>the community</h2>
-					<img src="images/mcommunity.png" alt="" class="portphotos"/>
-					<p>The Munger Graduate Residences is a transdisciplinary community for graduate and professional students from all 19 schools at the University of Michigan. As a Coleman-Munger Fellow, I lead residents in developing programs and events that encourage collaboration and innovation across disciplines.
+					<h2>Overview</h2>
+					<p><b>Munger Events</b> is a mobile application that facilitates collaboration and community-building at the Munger Graduate Residences by allowing users to create, promote, and share events for graduate students. 					
 					<br/>
 					<br/>
-					Munger has only been open since Fall 2015, which means we, the staff, are continually developing and interating on our workflows to be more efficient and transparent to residents.</p>
+					During the design process, I served the community as a Coleman-Munger Fellow. In my position, I led the community by developing programmatic series and events that encouraged collaboration and innovation across disciplines. At the time, Munger was only in it's second year of operation, and thus was very much still in the "storming" phase of its development.  
+					<br/>
+					<br/>
+					<b>It was the perfect problem for me to investigate as part of my individual project for my Introduction to Interaction Design class.</b>
+					</p>
 					</div>
-					<div id="opportunity">
-					<h2>the opportunity</h2>
-						<p>In conversations with staff and residents, several types of questions about events and programming at Munger often tend to surface. These same themes were consistent with recurring questions posted on the Munger Facebook group, which I’ve grouped as follows:</p>
-					<h3>1. What’s going on tonight?</h3>
-					<img src="images/fbfb1.png" alt="" class="portphotos" id="fbimg"/>
-						<p>Because there is no central resource for residents to view or learn more about events going on in the building at any given time, they are often unsure whether certain events are closed/private functions, or whether they are open to all residents.</p>
-					<h3>2. How can I share my event with the community?</h3>
-					<img src="images/fbfb2.png" alt="" class="portphotos" id="fbimg"/>
-						<p>The Munger Facebook group is currently the widest platform residents can use to promote their programs. However, not every resident is a member of the group, and users have experienced difficulties utilizing Facebook events as a central resource for community event sharing.</p>
-					<h3>3. Will anyone attend my event?</h3>
-					<img src="images/fbfb3.png" alt="" class="portphotos" id="fbimg"/>
-					<img src="images/fbfb4.png" alt="" class="portphotos" id="fbimg"/>
-						<p>As a new community, Munger collectively has a limited amount of data and experience to consult when considering whether there is enough resident interest in a program idea, or which dates and times would best meet the needs of a diverse group of students with busy schedules.</p>
-					<h3 id="goals">goals</h3>
-						<ul>
-							<li>Demystify program creation</li>
-							<li>Create a more inclusive community</li>
-							<li>Empower community members pursue their ideas collaboratively</li>
-						</ul>
 
+					<div id="opportunity">
+					<h2>Problem Scope</h2>
+						<p>In casual conversation with staff and residents, I discovered that several types of questions about events and programming at Munger often tended to rise to the surface. I found that these themes were consistent with recurring types of questions posted on the Munger Facebook group:</p>
+					<h3>Question Type 1: "What’s going on tonight?"</h3>
+					<img src="images/fbfb1.png" alt="" class="portphotos" id="fbimg"/>
+						<p>Because there is no central resource for residents to view or learn more about events going on in the building at any given time, they are often unsure whether certain events are closed/private functions, or whether they are open to all residents.<br></p>
+					<h3>Question Type 2: "How can I share my event with the community?"</h3>
+					<img src="images/fbfb2.png" alt="" class="portphotos" id="fbimg"/>
+						<p>The Munger Facebook group is currently the widest platform residents can use to promote their programs. However, not every resident is a member of the group, and users have experienced difficulties utilizing Facebook events as a central resource for community event sharing.<br></p>
+					<h3>Question Type 3: "Will anyone attend my event?"</h3>
+					<img src="images/fbfb3.png" alt="" class="portphotos" id="fbimg"/>
+						<p>As a new community, Munger collectively has a limited amount of data and experience to consult when considering whether there is enough resident interest in a program idea, or which dates and times would best meet the needs of a diverse group of students with busy schedules.</p>
 					</div>
+
+					<div id="requirements">
+					<h2>Requirements</h2>
+					<p>I set the following goals to guide my design process:</p>
+						<ul>
+							<li>Demystify the program and event creation process</li>
+							<li>Build community by enabling members to quickly and easily promote programs</li>
+							<li>Empower community members to pursue ideas collaboratively</li>
+						</ul>
+					</div>
+
+					
 					<div id="methods">
-					<h2>methods</h2>
-						<p>After conducting preliminary research, I developed personas, sketched scenarios, and constructed paper prototypes of possible solutions.</p>
-						<p>By testing the paper prototypes with target users, I was able to better identify the priorities of residents and iteratively improve on the design.</p>
-						<img src="images/persona1.png" alt="" class="portphotos"/>
-						<img src="images/persona2.png" alt="" class="portphotos"/>
-						<br/>
-						<img src="images/scen1.png" alt="" class="portphotos"/>
-						<img src="images/scen2.png" alt="" class="portphotos"/>
+					<h2>Process</h2>
+						<h3>Personas</h3>
+						<p>After conducting preliminary research, I first created personas of target users. I found that the two largest user groups would consist of community staff members and community residents.</p>
+						<div id="personaphotos">
+						<img src="images/persona1.png" alt=""/>
+						<img src="images/persona2.png" alt=""/>
+						</div>
+	
+
+						<h3>Storyboarding</h3>
+						<p>I then sketched out 8 concepts, with storyboards illustrating the scenarios in which these solutions might be used. </p>
+
+						<div id="sketchphotos">
+						<img src="images/scen1.png" alt="" id="portphotos"/>
+						<img src="images/scen2.png" alt="" id="portphotos"/>
+						</div>
+						
+						<h3>Paper Prototype</h3>
+						<p>After interviewing 4 additional residents, I decided to focus my design on a mobile application centered around an event calendar. I created a paper prototype, and tested it with 3 classmates and 3 residents. By testing the paper prototypes with target users, I was able to better identify the priorities of residents and iteratively improve on the design.</p>
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/FOqDUsGM3UI" frameborder="0" allowfullscreen class="vid"></iframe>
 
-					</div>
-
-					<div id="solution">
-					<h2>the solution</h2>
-					<p>Please explore the digital prototype below!<br/>
-					<iframe style="transform: scale(.6)" width="415" height="900" src="https://projects.invisionapp.com/share/QCA4RV3SX#/screens" frameborder="0" allowfullscreen id="protoiframe"></iframe></p>
-						
-						<p>My digital prototype demonstrates several key features of the platform. Users can:</p>
+					<h3>Digital Prototype</h3>
+					<p>Finally, I developed a digital, interactive version of my prototype using Sketch and InVision.<br/>
+					With my digital prototype, I was able to test out several key features of the platform. Users can:</p>
 						<ul>
-							<li>create, promote, and manage the logistical details about their events, allowing them to inform their guests easily and quickly of any last-minute changes (room, date, time, etc).</li>
-							<li>view the guest list of interested residents before the event, to better prepare for food ordering or further promotion.</li>
-							<li>provide feedback on the events they’ve hosted or attended in order to gather more data on the best dates, times, and locations for certain types of events. This will facilitate future event planning decisions.</li>
-							<li>share events they are interested in attending with their friends, which can then be added to the user’s main calendar.</li>
-						</ul>
+							<li>create, promote, and manage the logistical details of their events</li>
+							<li>send out updates about last-minute changes to events (room, date, time, etc)</li>
+							<li>view the list of registered guests</li>
+							<li>register for other users' events</li>
+							<li>provide feedback on events they’ve hosted or attended</li>
+							<li>share events they are interested in attending with their friends</li>
+						</ul></p>
+					<iframe style="transform: scale(.6)" width="415" height="900" src="https://projects.invisionapp.com/share/QCA4RV3SX#/screens" frameborder="0" allowfullscreen id="protoiframe"></iframe>
+						
+
+
 					</div>
+<!-- 
+					<div id="solution">
+
+					</div> -->
 					<div id="takeaways">
-					<h2>takeaways</h2>
-						<p>Some important considerations as I move forward include possibly integrating Munger Events with other social networking or productivity platforms to provide users with more flexibility and to gain wider adoption. I plan to further test:</p>
-							<ul>
-								<li>Is an internal calendar optimal, or should users be able to sync events with other calendar services?</li>
-								<li>Should event sharing be limited to internal use only, or are there avenues by which events could be shared through email, text, or other messaging applications?</li>
-							</ul>
-						<p>Overall, this process has led me to consider the differences in designing platforms that are meant to share and promote events widely- through large cities, for example- and those tailored for the needs of smaller communities. 
+					<h2>Takeaways</h2>
+						<p>I worked on Munger Events during my first semester of graduate school. As I embarked on my first interaction design project, I ran into many roadblocks familiar to the novice designer: getting attached to particular concepts for my final design even while conducting preliminary research; designing microinteractions first, instead of first outlining the system at a high level; and accidentally getting carried away with my color palette, eventually leading to an overwhelming, maximalist visual aesthetic.<br><br>
+						I learned a lot from this project. I now take care to pare down the information presented on each screen I design to prevent overloading the user. I've internalized gestalt principles of similarity and proximity, and employ them to ensure users can easily navigate through my visual designs. I've also learned to take it easy with the color palette, and to employ only as much color as necessary.<br><br>
+						Most importantly, however, I learned how to structure my research process so that I focus on addressing user needs, not just my own. When I showed residents my prototype, some were interested but ultimately expressed that they already had too many calendars to keep track of in their lives. Another calendar platform would just lead to more confusion. Now, Munger sends out a weekly newsletter with community events, and the staff have adopted a university-wide events registration platform. Now, I try to be more open to less conventional solutions; those can lead to some of the most interesting innovations.
 						</p>
 					</div>
 
 				</div>
 				<div class="footer" id="footer">
-				<h2>Contact</h2>
+				<!-- <h2>Contact</h2> -->
 <!-- 				<p id="contact">Contact me at chelseamillerdesign[at]gmail[dot]com</p>
 				<span id="btn"><a href="images/Chelsea_Miller_Resume.pdf" target="_blank">view resumé</a></span> -->
 				<ul id="footlist">
