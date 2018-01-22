@@ -13,7 +13,6 @@ body{
 	display:block;
 	}
 
-
 /* ==========================================================================
    Navigation
    ========================================================================== */
@@ -37,7 +36,6 @@ body{
 	background-color:#fcfcfc;
 	width:100vw
 }
-
 
 .navigation-exterior{
 	-webkit-box-pack:center;
@@ -104,7 +102,7 @@ body{
 	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size: 12px;
 	color: #626262;
-	letter-spacing: 1.5px;
+	letter-spacing: 2.5px;
 	list-style-type: none;
 	text-decoration: none;
 	padding:8px;
@@ -112,26 +110,13 @@ body{
 }
 
 .navigation-link:hover{
-	color:#809bce;
+	color:#FF7A6B;
 	list-style-type: none;
 	text-decoration: none;
+	text-decoration-line: underline;
+	text-decoration-line: double;
+  	text-decoration-color: #FF7A6B;
 }
-
-#currentpage a{
-	text-decoration: none;
-	color:#FF7A6B;
-}
-
-#currentpage a:hover{
-	text-decoration: none;
-	color:#809bce;
-	background:white;
-}
-
-#name{
-	display:none;
-}
-
 
 #title{
 	display:inline;
@@ -153,16 +138,14 @@ body{
 }
 
 
-
-
 /* ==========================================================================
-   Interior - Portfolio
+   Interior - Index / Portfolio
    ========================================================================== */
 #splash{
-	background-color: #ffffff);
-	min-height: 300px;
+	background-color: white;
 	width:100%;
 	margin-top: 3.5%;
+	/*background: url(../images/orange.png) no-repeat center center fixed; */
 }
 
 
@@ -176,37 +159,15 @@ body{
 	letter-spacing: 10.5px;
 }
 
-#splash p{
+#splash h2{
 	font-family: Avenir-Light, Helvetica, sans-serif;
 	font-size: 1.5em;
 	text-align: center;
 	margin: auto;
+	margin-top: -1%;
+	margin-bottom: 5%;
 	max-width:75%;
 	color:#FF7A6B;
-}
-
-
-#lighter{
-	font-family: Avenir-Light, Helvetica, sans-serif;
-}
-
-#splash i{
-	color: #FF7A6B;
-}
-
-
-
-.resume h1{
-	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size:2.5em;
-	text-align: center;
-}
-
-
-h2{
-	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size:2.5em;
-	text-align: center;
 }
 
 
@@ -215,7 +176,7 @@ h2{
 	font-family: Avenir, Helvetica, sans-serif;
 	font-size:3em;
 	text-align: center;
-	color:#FF7A6B;
+	color:gray;
 	margin-bottom: -2%;
 }
 
@@ -226,43 +187,54 @@ h2{
 	text-align: center;
 	width:100%;
 	margin:auto;
-	background:transparent;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	display:block;
 }
 
 
 .port_project h3{
 	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size:3em;
+	font-size:2em;
 	text-align: center;
 	letter-spacing: 10.5px;
+	color:#626262;
 }
 
 .port_project h4{
 	font-family: Avenir-Light, Helvetica, sans-serif;
-	font-size:1.5em;
+	font-size:1.25em;
 	text-align: center;
-	color:#FF7A6B;
-	margin-bottom: 30px;
+	/*color:#FF7A6B;*/
+	color:#626262;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-width:90%;
+	margin:auto;
+}
+
+.port_project p{
+	font-size: 10px;
 }
 
 .port_project img{
-	max-width:55%;
+	max-width:60%;
 	margin:auto;
 
 }
 
-
-
-
-
-.althead {
-	font-size: 1.6em;
+.port_project:hover h3{
 	color:#FF7A6B;
-	padding-top: 20px;
 }
 
+.port_project:hover h4{
+	color:#FF7A6B;
+}
+
+/* ==========================================================================
+   Interior - About
+   ========================================================================== */
 
 #about{
 	padding-bottom: 50px;
@@ -291,24 +263,19 @@ h2{
 
 #about p{
 	color:#626262;
-	font-size: 1.3em;
-	width:90%;
-	text-align: left;
-	width:100%;
-	max-width:600px;
+	font-size: 16px;
+	width:55%;
 	text-align: left;
 	margin: auto;
 }
 
-#about ul{
-	color:#626262;
-	font-size: 1.3em;
+
+/* ==========================================================================
+   Interior - Resume
+   ========================================================================== */
+
+#resume{
 	width:100%;
-	max-width:700px;
-	text-align: left;
-	margin: auto;
-	padding-left: 70px;
-	padding-bottom: 30px;
 }
 
 #resume h1{
@@ -323,264 +290,177 @@ h2{
 #resume img{
 	margin-top:10%;
 	display:block;
-	width:60%;
+	width:auto;
+	min-width:100px;
+	max-width:70%;
 	margin:auto;
-	margin-bottom:5%;
+	margin-bottom:50px;
 	border-style: solid;
 	border-color: #d3d3d3;
 	border-width: 1px;
 }
 
-
-
-#btn {
-	text-decoration: none;
-	border-style: solid;
-	border-color:white;
-	background-color: #fefefe;
-	color:white;
-	padding:10px 20px;
-	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size: 1em;
-	margin: 40%;
-
-}
-
-#btn a{
-	text-decoration: none;
-}
-
-#btn:hover {
-	text-decoration: none;
-	border-style: solid;
-	border-color:white;
-	background-color: #f4f4f4;
-	color:white;
-	padding:10px 20px;
-	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size: 1.3em;
-}
-
-.m{
-	background-color: white;
-}
-
-
-
 /* ==========================================================================
-   Events
+   Portfolio Body
    ========================================================================== */
 
-.portphotos{
-	display:block;
-	max-width:35%;
-	margin: auto;
-	padding:2%;
+.portfoliobody {
+	color:#626262;
+    font-family: Avenir, Helvetica, sans-serif;
+    letter-spacing: .01rem;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    width: 100%;
+    margin: auto;
 }
 
-.portphotoshead{
-	max-width:70%;
-	margin-bottom: 30px;
-	margin-top: 30px;
-
-}
-
-.cyclikaphotos{
-	display:block;
-	max-width:50%;
-	margin: auto;
-	padding:2%;
-}
-
-
-
-#overview{
-	width:100%;
-	text-align: center;
-	background-color: white;
-	padding-bottom: 5%; 
-}
-
-#overview h1{
-	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size: 6em;
+.portfoliobody h2{
+	width: 55%;
+	margin:auto;
+	text-align: left;
 	color:#FF7A6B;
-	padding-top: 2%;
+	margin-bottom:30px;
+	font-size: 1.75em;
+	text-transform: uppercase;
+}
+
+.portfoliobody h3{
+	width: 55%;
+	margin:auto;
+	text-align: left;
+	color:#FF7A6B;
+	margin-bottom:15px;
+	font-size: 1.15em;
+	font-style: italic;
+	font-weight: 600;
+}
+
+.portfoliobody h4{
+	width: 55%;
+	margin:auto;
+	text-align: left;
+	color:#626262;
+	margin-top: 50px;
+	font-size: 1.15em;
+	font-weight: 600;
+}
+
+.portfoliobody p{
+	width: 55%;
+	margin:auto;
+	text-align: left;
+	font-size: 1em;
+	color:#626262;
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+.portfoliobody ol{
+	width: 55%;
+	margin:auto;
+	text-align: left;
+	font-size: 1em;
+	color:#626262;
+	margin-bottom:50px;
+	margin-top:-35px;
+}
+
+.portfoliobody ul{
+	width: 55%;
+	margin:auto;
+	text-align: left;
+	font-size: 1em;
+	color:#626262;
+	margin-bottom:50px;
+	margin-top:-35px;
+}
+
+.portfoliobody img{
+	text-align:center;
+	width:55%;
+	display:block;
+	margin:auto;
+	margin-top:35px;
+	margin-bottom:50px;
+}
+/* ==========================================================================
+   Munger Events
+   ========================================================================== */
+
+.portfoliobody .summary{
+	background-color: white;
+	padding-bottom: 50px;
+}
+
+.portfoliobody .summary h1{
+	padding-top: 80px;
 	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size:6em;
+	font-size: 3.15em;
 	text-align: center;
+	color:#FF7A6B;
+	letter-spacing: 10.5px;
 }
 
-#overview h3{
+.portfoliobody .summary h2{
+	font-weight: 100;
+	font-size: 1.15em;
+	text-align: center;
+	margin: auto;
+	margin-top: -1%;
 	color:#626262;
-	font-size: 1.5em;
-	width:80%;
-	margin-left: 10%;
-	text-align: center;
-	margin-top: -3%
-}
-#overview h4{
-	margin-top: 30px;
-	font-size: 1.3em;
-	width:80%;
-	margin-left: 10%;
-	text-align: center;
+	text-transform: none;
 }
 
-#overview p{
-/*	width:100%;*/
-	max-width: 65%;
+.portfoliobody .summary img{
+	text-align:center;
+	width:600px;
+	display:block;
+	margin:auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.portfoliobody .summary p{
+	width: 55%;
+	margin:auto;
 	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
+	font-size: 1em;
 	color:#626262;
 }
 
 
-#community{
-	padding-top: 5%;
-	padding-bottom: 5%;
-	text-align: center;
-	background-color: #f4f4f4;
-	width:100%;
+.portfoliobody .gray{
+	background-color: #F3F3F3;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
-#community h2{
-	color:#626262;
-	text-align: left;
-	margin-left:15%;
-}
-
-#community p{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-	color:#626262;
-}
-
-#opportunity{
-	padding-top: 5%;
-	padding-bottom: 5%;
+.portfoliobody .white{
 	background-color: white;
-}
-
-#opportunity h2{
-	color:#626262;
-	text-align: left;
-	margin-left:15%;
-}
-
-#opportunity p{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-	color:#626262;
-}
-
-#opportunity h3{
-	padding-top: 35px;
-	font-size: 1.7em;
-	color:#626262;
-	text-align: left;
-	width:60%;
-	margin-left: 15%;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 
-#opportunity li{
-	width:60%;
-	margin-left:15%;
-	text-align: left;
-	font-size: 1.3em;
-	color:#626262;
+
+
+.portfoliobody .gray .caption {
+	font-size: 12px;
 }
 
-
-#requirements{
-	width:100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background-color: #f4f4f4;
+.portfoliobody .white .caption {
+	font-size: 12px;
 }
 
-#requirements h2{
-	color:#626262;
-	text-align: left;
-	margin-left:15%;
-}
-
-#requirements p{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-	color:#626262;
-}
-
-#requirements h3{
-	font-size: 1.4em;
-	color:#626262;
-	text-align: left;
-	width:60%;
-	margin-left: 15%;
-}
-
-
-#requirements li{
-	width:65%;
-	margin-left:15%;
-	text-align: left;
-	font-size: 1.3em;
-	color:#626262;
-}
-
-#methods{
-	width:100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-/*	text-align: center;*/
-	background-color: white;
-}
-
-#methods h2{
-	color:#626262;
-	text-align: left;
-	margin-left:15%;
-}
-
-#methods h3{
-	font-size: 1.7em;
-	color:#626262;
-	text-align: left;
-	width:60%;
-	margin-left: 15%;
-	margin-top: 2%;
-}
-
-#methods p{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-	color:#626262;
-}
-
-#methods li{
-	width:65%;
-	margin-left:15%;
-	text-align: left;
-	font-size: 1.3em;
-	color:#626262;
-
-}
 
 #personaphotos img{
 	display:block;
-	max-width:60%;
+	max-width:55%;
 	margin: auto;
-	padding:2%;
+	margin-bottom:60px;
 
 }
 
@@ -594,9 +474,19 @@ h2{
 
 #sketchphotos img{
 	display:block;
-	max-width:60%;
+	max-width:55%;
 	margin: auto;
-	padding:2%;
+	margin-bottom:60px;
+
+}
+
+.white .vid {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border:solid;
+    border-width: 1px;
+    border-color: #F3F3F3;
 
 }
 
@@ -613,33 +503,6 @@ h2{
 }
 
 
-
-#takeaways{
-	width:100%;
-	padding-top: 5%;
-	padding-bottom: 5%;
-	background-color: #f4f4f4;
-	color:#626262;
-}
-
-#takeaways h2{
-	text-align: left;
-	margin-left:15%;
-}
-
-#takeaways p{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-}
-
-#takeaways li{
-	max-width:65%;
-	text-align: left;
-	margin-left: 15%;
-	font-size: 1.3em;
-}
 
 
 #moreprojects{
@@ -658,33 +521,13 @@ h2{
 
 
 
-
-
-/*resume*/
-#resume{
-	width:100%;
-	min-height: 1000px;
-}
-
-
-#downloadbutton{
-	background-color: #FF7A6B;
-	padding:30px;
-	font-size: .75em;
-	color:white;
-	margin-top: -4%;
-	margin-bottom:100px;
-}
-
-#downloadbutton:hover{
-	background-color: #f77567;
-}
-
 #opportunity #charttitle{
 	font-size: 10px;
 	margin:auto;
 	text-align: center;
 }
+
+
 
 /* ==========================================================================
    Footer
@@ -701,13 +544,10 @@ h2{
 	right:0;
 	left:0;
 	background-color: white;
-/*	padding-top:40px;*/
 	border-top:1px solid #eaedf1;
 }
 
 #footer p{
-/*	font-size: 14px;
-	float:center;*/
 	padding-right:3%; 
 	color:#626262;
 }
@@ -725,7 +565,7 @@ h2{
 }
 
 #footlist i:hover{
-	color:#809bce;
+	color:#FF7A6B;
 }
 
 #contact b{
@@ -751,8 +591,38 @@ a:hover{
 
 
 @media only screen and (min-width: 1000px){
-	#footer p{
-		margin-left: 3%;
+
+	.port_project img{
+		max-width: 600px;
+	}
+
+	#resume img{
+		max-width: 50%;
+	}
+
+	.portfoliobody .fbtable{
+		display:table;
+		width:55%;
+		margin:auto;
+	}
+
+	.portfoliobody .fbimg{
+		width:300px;
+    	display: table-cell;
+    	vertical-align: middle;
+ /*   	border:solid;*/
+    	margin-left:auto;
+    }
+
+    .portfoliobody .fbp{
+	    display: table-cell;
+	    vertical-align: middle;
+	    /*width:30%;*/
+	    /*border:solid;*/
+	    padding-left:30px;
+    }
+
+}
 
 }
 
