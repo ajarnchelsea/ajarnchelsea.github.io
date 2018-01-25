@@ -67,33 +67,34 @@
 
 			<div class="white">
 				<h2>Phase I: Discovery</h2>
-				<p>Our team was sponsored by Dr. Andrea Brown, Assistant Director of Bands at the University of Michigan, who developed the Maestro concept and recruited a team of students to develop the the first version of the system’s algorithm and UI in 2016. The 2016 system algorithm focused on a gesture’s preparation speed and action point, and provided users with audio feedback in the form of a static audio clip. <br/><br/>
+				<p>Our team was mentored by Dr. Andrea Brown, Assistant Director of Bands at the University of Michigan, who created the Maestro concept and recruited a team of students to develop the the first version of the system’s algorithm and UI in 2016. In Maestro’s second year, <b>our team started out by evaluating the 2016 system; improving the quality of algorithmic analysis; and creating a better user experience in terms of system navigability and gestural discoverability.</b><br/><br/>
 
-				In Maestro’s second year, our team started out by evaluating the 2016 system; improving the quality of algorithmic analysis; and creating a better user experience in terms of system navigability and gestural discoverability.<br/><br/>
-
-				The 2016 team did not have a dedicated UX researcher or designer, so my partner and I first <b>created a research plan</b> to both <b>discover insights about the 2016 system’s usability</b> as well as to <b>learn more about our target users</b>. We wanted to build a front-end experience that not only improved upon the 2016 framework, but also had a solid foundation supported by thorough user research.
+				My partner and I first <b>created a research plan</b> to  <b>discover insights about the 2016 system’s usability</b> as well as to <b>learn more about our target users</b>. We sought to improve the system's user experience through thorough user research.
 				</p>
 
 				<h3>System Map</h3>
-				<p>I created a system map to better understand the how the front-end interfaces with the algorithm and sound synthesis engine, as well as to identify features to evaluate in our first round of usability testing.</p>
+				<p>I created a system map to better understand the how the system's front-end interfaced with the back-end algorithm and sound synthesis engine. My partner and I used this map to <b>identify features to evaluate in our first round of usability testing.</b></p>
 				<img src="images/maestro/freeplaymap.png" alt="">
 
+				<h3>Heuristic Evaluation</h3>
+				<p>We then conducted an heuristic evaluation by annotating screenshots of the system with notes of how the interface followed or violated Jakob Nielsen's 10 usability heuristics.</p>
+				<img src="images/maestro/heuristic.png" alt="" style="width:75%;">
+
 				<h3>Interviews and Usability Tests</h3>
-				<p>To maximize our time with our participants, we developed a test plan consisting of a 30-minute semi-structured interview about participants’ <b>conducting experiences, practice habits, and attitudes towards technology in music education</b>, followed by a 30 minute usability evaluation. Using insights gathered from our interaction map, we created usability tasks that asked users to navigate through the system and conduct gestures in both Freeplay and Lesson modes. We also created a post-test questionnaire that asked participants to rate system features and various aspects of the experience on a 5-point Likert scale.</p>
+				<p>We <b>recruited 5 music students</b>, 2 of whom were <b>enrolled in the university’s beginning conducting course</b>, and 3 of whom <b>had completed the course</b>. Sessions were conducted in practice rooms in the Earl V. Moore music building on campus, to better replicate the context in which Maestro would be used in the future.<br/><br/> 
+				We conducted <b>30-minute semi-structured interviews</b> with participants about their <b>conducting experience, practice habits, and attitudes towards technology in music education</b>, followed by a <b>30 minute usability evaluation.</b> We asked participants to follow a talk-aloud protocol so that we could understand their attitudes and opinions while using various system features: navigating through the system, completing lessons, and conducting gestures in Freeplay mode.<b> I moderated 3 of the usability tests,</b> and acted as notetaker for 2 tests while my partner moderated. We also created and distributed a post-test questionnaire that asked participants to rate system features and various aspects of the experience on a 5-point Likert scale.</p>
 				<img src="images/maestro/moderating.png" alt="">
 				<p class="caption" style="margin-top:-30px;"><em>Here I am, moderating a usability test in the Earl V. Moore music building.</em></p>
-				<p>We <b>recruited 5 music students</b>, 2 of whom were <b>enrolled in the university’s beginning conducting course</b>, and 3 of whom <b>had completed the course</b>. Sessions were conducted in practice rooms in the Earl V. Moore music building on campus, to better replicate the context in which Maestro would be used in the future.<br/><br/> 
-
-				I moderated 3 usability tests, and acted as notetaker for 2 tests while my partner moderated. We video recorded the tests for future review and analysis, and asked participants to follow a talk-aloud protocol so that we could understand their attitudes and opinions while using various system features.</p>
+				
 				<h3>Key Insights</h3>
-				<p>After analyzing our findings from our video recordings and surveys by making a virtual affinity wall, we identified several key insights that shaped our prototyping and implementation phases:</p>
+				<p>My partner and I <b>analyzed our findings</b> from our video recordings and surveys by making a <b>virtual affinity wall</b>. We identified several key clusters that shaped our prototyping and implementation phases:</p>
 				<ol>
 					<li><b>Users responded positively to the Kinect skeleton.</b> Users valued the visual feedback in the form on the Kinect skeleton because they could focus on their posture and technique without the additional distraction present in the video screen; they mentioned they weren’t looking at the video feedback unless they wanted to monitor a very subtle gesture.</li>
 					<li><b>Users struggled with the information architecture of Lesson mode.</b> Lessons were organized under "Levels 1-4", with a sub-structure of "Lessons 1-10."" There is very little semantic information encoded in these names, and users weren’t sure how these Levels or Lessons were related. Users had a difficult time remembering whether they had completed Lesson 1 in Level 1 or in Level 2, since the lesson itself had the same name.</li>
 					<li><b>First-time users didn’t know how to begin interacting with the system in Freeplay mode.</b> They weren't sure whether they could start conducting right away, and after realizing that they could not, were not sure which button they needed to press to start the process.</li>
 				</ol>
 				<h3>Personas</h3>
-				<p>Before we began prototyping, we distilled our findings from our interviews and usability tests to create personas of three target users. We used these personas to represent our users and help us justify our design decisions to our team and to the faculty panels we presented to each quarter.</p>
+				<p>Before we began prototyping, we created personas of three target users based on our interview and usability test findings. We <b>used these personas to represent our users and help us justify our design decisions</b> to our team and to the faculty panels we presented to each quarter.</p>
 				<div id="personaphotos">
 					<img src="images/maestro/maestropersona1.png" alt=""/>
 					<img src="images/maestro/maestropersona2.png" alt=""/>
@@ -112,23 +113,26 @@
 
 			<div class="white">
 				<h2>Phase III: Implementation</h2>
-				<p>Starting Fall 2017, our team transitioned from design to development. We used XAML to build the new system, and modified the associated C# code when necessary. The developers on our team had made updates to the algorithm to expand its analysis to sustain duration and release types, and improved the overall accuracy and consistency of recognizing each state of the conducting gesture. The sound synthesis subteam implemented their sound synth engine, which featured 4 synthesized instruments: clarinet, oboe, horn, and bassoon. <br/><br/>
+				<p>Starting Fall 2017, our team transitioned from design to development. We used XAML to code the new system, and modified the associated C# code when necessary. <br/><br/>
 
+				While my partner and I had been evaluating the 2016 system and prototyping a new front-end interface, the developers on our team had been making updates to the algorithm that improved the overall accuracy and consistency of recognizing gestures. The sound synthesis subteam implemented their sound synth engine, which featured 4 synthesized instruments: clarinet, oboe, horn, and bassoon. While the improvements to the backend improved the responsivity of the system, <b>we realized that some of our goals for updating the system would be out of reach for development this year; it would be better to focus on improving the user experience for a limited range of functions than to try to implement new feedback modes or lesson structures.</b><br/><br/>
 
-				The screen capture below shows a user selecting instrument(s) for audio feedback. Users can select one instrument, or create an ensemble by selecting multiple instruments.</p>
-				<video class="vid" controls id="papervid" loop="" name="schema explorer" src="images/maestro/freeplay.mp4" width="55%" height="auto"></video>
-
-
-				<p>In addition to creating a more consistent visual style, we implemented several key features during development:</p>
+				We focused on strengthening several key features during development to improve the baseline user experience:</p>
+				<img src="images/maestro/beforeafterfreeplay.png" alt="" style="width:90%;">
 				<ul>
 					<li><b>Calibrate and Reset Body buttons moved to reflect order in which users should click them.</b> Users must calibrate the system before using it, so we moved it from the bottom corner of the interface to the top. Additionally, users had been confused about why the Reset Body button was placed next to the Calibrate button - they weren’t sure what the difference was. We moved it below Calibrate to visually separate their functions and the order in which users will use them.</li>
 					<li><b>Tooltips added to guide users through Calibration, Reset Body, and system status features.</b> We used toolips to provide users with additional information on the Calibrate and Reset Body buttons, as well as on the color encodings on the Kinect skeleton as they pertain to System Status.</li>
 					<li><b>Video feedback minimized. We moved the video feedback screen to the corner of the interface, as users expressed that they were using it only to make minor adjustments or observe nuances in their form.</b> This gave us room to implement the audio feedback selection on the sidebar.</li>
-					<li><b>Lesson mode restructured and renamed.</b> Lesson levels are grouped in a sequence similar to that used in conducting courses: single sounds, sustains, dynamics, and patterns.</li>
 				</ul>
-				<p>The screen capture below shows a user navigating through the system's onboarding process and Lesson mode.</p>
+				<p><b>Additionally, the information architecture of lesson mode was restructured and renamed.</b> Lesson levels are grouped in a sequence similar to that used in conducting courses: single sounds, sustains, dynamics, and patterns.</p>
+				<img src="images/maestro/beforeafterlessons.png" alt="" style="width:90%;">
+				
+				
+				<p>The screen capture below shows a user <b>selecting instrument(s) for audio feedback</b>. Users can select one instrument, or create an ensemble by selecting multiple instruments.</p>
+				<video class="vid" controls id="papervid" loop="" name="schema explorer" src="images/maestro/freeplay.mp4" width="55%" height="auto"></video>
+				<p>The screen capture below shows a user <b>navigating through the system's onboarding process and Lesson mode</b>.</p>
 				<video class="vid" controls muted id="papervid" name="schema explorer" src="images/maestro/onboarding.mp4" width="55%" height="auto"></video>
-				<p>Our team presented this iteration of the Maestro system on display at the U-M Campus of the Future Symposium on October 27th, 2017.</p>
+				<p>Our team presented this iteration of the Maestro system on display at the U-M Campus of the Future Symposium on October 27th, 2017. Here, our mentor, Dr. Brown, tries out our latest iteration.</p>
 				<video class="vid" controls id="papervid" loop="" name="schema explorer" src="images/maestro/brown.mp4" width="55%" height="auto"></video>
 			</div>
 
