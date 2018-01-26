@@ -110,12 +110,12 @@ body{
 }
 
 .navigation-link:hover{
-	color:#FF7A6B;
+	color:#809bce;
 	list-style-type: none;
 	text-decoration: none;
-	text-decoration-line: underline;
+/*	text-decoration-line: underline;
 	text-decoration-line: double;
-  	text-decoration-color: #FF7A6B;
+  	text-decoration-color: #809bce;*/
 }
 
 #title{
@@ -138,6 +138,30 @@ body{
 }
 
 
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+}*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 1px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.droplink {
+	text-decoration: none;
+	margin-top: 10px;
+	/*list-style-type: none;*/
+}
 /* ==========================================================================
    Interior - Index / Portfolio
    ========================================================================== */
@@ -198,7 +222,7 @@ body{
 	font-family: Avenir-Heavy, Helvetica, sans-serif;
 	font-size:2em;
 	text-align: center;
-	letter-spacing: 10.5px;
+	letter-spacing: 5.5px;
 	color:#626262;
 }
 
@@ -206,7 +230,6 @@ body{
 	font-family: Avenir-Light, Helvetica, sans-serif;
 	font-size:1.25em;
 	text-align: center;
-	/*color:#FF7A6B;*/
 	color:#626262;
 	padding-top: 15px;
 	padding-bottom: 15px;
@@ -225,12 +248,20 @@ body{
 }
 
 .port_project:hover h3{
-	color:#FF7A6B;
+	color:#809bce;
 }
 
 .port_project:hover h4{
-	color:#FF7A6B;
+	color:#809bce;
 }
+
+.port_project:hover img{
+	border-color:#809bce;
+	border-style: solid;
+	border-width: 5px;
+}
+
+
 
 /* ==========================================================================
    Interior - About
@@ -445,8 +476,6 @@ body{
 }
 
 
-
-
 .portfoliobody .gray .caption {
 	font-size: 12px;
 }
@@ -565,7 +594,7 @@ body{
 }
 
 #footlist i:hover{
-	color:#FF7A6B;
+	color:#809bce;
 }
 
 #contact b{
@@ -621,6 +650,21 @@ a:hover{
 	    /*border:solid;*/
 	    padding-left:30px;
     }
+
+
+    #portfolio {
+    	display:table;
+    }
+
+    #portfolio .port_project{
+    	display:table-cell;
+    	width:30%;
+    }
+
+    #portfolio .port_project img{
+    	width:90%;
+    }
+
 
 }
 
