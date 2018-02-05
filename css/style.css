@@ -106,6 +106,7 @@ body{
 	list-style-type: none;
 	text-decoration: none;
 	padding:8px;
+	text-transform:uppercase;
 
 }
 
@@ -147,7 +148,7 @@ body{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 200px;
+    min-width: 250px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 1px;
     z-index: 1;
@@ -194,6 +195,9 @@ body{
 	color:#FF7A6B;
 }
 
+#portfolio {
+	margin: 10px 90px 80px 90px;
+}
 
 #portfolio h2{
 	padding-top: 2%;
@@ -220,7 +224,7 @@ body{
 
 .port_project h3{
 	font-family: Avenir-Heavy, Helvetica, sans-serif;
-	font-size:2em;
+	font-size:20px;
 	text-align: center;
 	letter-spacing: 5.5px;
 	color:#626262;
@@ -228,12 +232,13 @@ body{
 
 .port_project h4{
 	font-family: Avenir-Light, Helvetica, sans-serif;
-	font-size:1.25em;
+	font-size:14px;
+	font-style: italic;
 	text-align: center;
 	color:#626262;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	max-width:90%;
+	padding-top: 5px;
+	padding-bottom: 20px;
+	max-width:95%;
 	margin:auto;
 }
 
@@ -242,9 +247,8 @@ body{
 }
 
 .port_project img{
-	max-width:60%;
+	max-width:50%;
 	margin:auto;
-
 }
 
 .port_project:hover h3{
@@ -259,6 +263,7 @@ body{
 	border-color:#809bce;
 	border-style: solid;
 	border-width: 1px;
+	opacity:.7;
 }
 
 
@@ -335,6 +340,7 @@ body{
    Portfolio Body
    ========================================================================== */
 
+
 .portfoliobody {
 	color:#626262;
     font-family: Avenir, Helvetica, sans-serif;
@@ -407,6 +413,11 @@ body{
 	color:#626262;
 	margin-bottom:50px;
 	margin-top:-35px;
+}
+
+
+.portfoliobody li {
+	margin-top: 25px;
 }
 
 .portfoliobody img{
